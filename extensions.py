@@ -11,6 +11,8 @@ class ConversionException(Exception):
 class Converter:
     @staticmethod
     def get_price(quote: str, base: str, amount: str):
+        quote, base = quote.lower(), base.lower()
+
         if quote == base:
             raise ConversionException(f'Невозможно перевести одинаковые валюты {base}')
 
