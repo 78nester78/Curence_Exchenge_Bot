@@ -1,4 +1,5 @@
 # Curence_Exchenge_Bot
+Имя бота в телеграмм: @Curence_Exchenge
 Бот позволяет произвести он-лайн пересчет валют.
 При написании бота использовалась библиотека pytelegrambotapi.
 API запросы отправляются к сервису www.cryptocompare.com при помощи библиотеки Requests.
